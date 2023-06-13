@@ -36,7 +36,7 @@ public class AdminLoginFrame extends JFrame {
 	private String Username;
 	private ImageIcon logoIcon = new ImageIcon(
 			new ImageIcon( "C:\\Users\\rafae\\Desktop\\School\\JPG\\icons\\Staclara.png")
-			.getImage().getScaledInstance(575, 100, Image.SCALE_DEFAULT));
+			.getImage().getScaledInstance(575, 200, Image.SCALE_DEFAULT));
 	/**
 	 * Create the frame.
 	 */
