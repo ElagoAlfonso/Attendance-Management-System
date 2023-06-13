@@ -23,7 +23,7 @@ public class PayslipFrame extends JFrame {
 	private JPanel contentPane;
 	private ImageIcon logoIcon = new ImageIcon(
 			new ImageIcon( "C:\\Users\\rafae\\Desktop\\School\\JPG\\icons\\Staclara.png")
-			.getImage().getScaledInstance(650, 50, Image.SCALE_DEFAULT));
+			.getImage().getScaledInstance(550, 75, Image.SCALE_DEFAULT));
 	// this is the reason why you see the text from another frame
 	
 
@@ -95,7 +95,8 @@ public class PayslipFrame extends JFrame {
 		X_btn.setForeground(new Color(0, 0, 0));
 		
 		JLabel logo = new JLabel("");
-		logo.setBounds(0, 0, 685, 54);
+		logo.setHorizontalAlignment(SwingConstants.CENTER);
+		logo.setBounds(0, 0, 685, 58);
 		Logo_pnl.add(logo);
 		logo.setIcon( logoIcon);
 		
@@ -173,24 +174,24 @@ public class PayslipFrame extends JFrame {
 		
 		 incomehere = new JLabel("");
 		 incomehere.setFont(new Font("Tahoma", Font.BOLD, 15));
-		incomehere.setBounds(524, 295, 129, 45);
+		incomehere.setBounds(489, 295, 164, 45);
 		receiptpanel.add(incomehere);
 		
 		JLabel totalhere = new JLabel("73.37 Hour");
 		totalhere.setFont(new Font("Tahoma", Font.BOLD, 15));
 		totalhere.setHorizontalAlignment(SwingConstants.CENTER);
-		totalhere.setBounds(45, 210, 106, 34);
+		totalhere.setBounds(10, 210, 106, 34);
 		receiptpanel.add(totalhere);
 		
 		totalhourhere = new JLabel("");
 		totalhourhere.setFont(new Font("Tahoma", Font.BOLD, 15));
-		totalhourhere.setBounds(342, 210, 106, 34);
+		totalhourhere.setBounds(286, 210, 106, 34);
 		receiptpanel.add(totalhourhere);
 		
-		JLabel pagibiglbl = new JLabel("Pagibig     : 0.2");
-		pagibiglbl.setFont(new Font("Tahoma", Font.BOLD, 17));
-		pagibiglbl.setBounds(524, 190, 154, 34);
-		receiptpanel.add(pagibiglbl);
+		JLabel PagIbig_lbl = new JLabel("Pagibig     : 0.2%");
+		PagIbig_lbl.setFont(new Font("Tahoma", Font.BOLD, 17));
+		PagIbig_lbl.setBounds(524, 195, 154, 34);
+		receiptpanel.add(PagIbig_lbl);
 		
 		JLabel PerHour_lbl = new JLabel("Per Hour");
 		PerHour_lbl.setHorizontalAlignment(SwingConstants.CENTER);
@@ -208,14 +209,15 @@ public class PayslipFrame extends JFrame {
 		MandatoryContributions_lbl.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 14));
 		downpanel.add(MandatoryContributions_lbl);
 		
-		JLabel lblSss = new JLabel("SSS           : 0.8");
-		lblSss.setFont(new Font("Tahoma", Font.BOLD, 17));
-		lblSss.setBounds(524, 210, 164, 34);
-		receiptpanel.add(lblSss);
+		JLabel SSS_lbl = new JLabel("SSS           : 0.8%");
+		SSS_lbl.setFont(new Font("Tahoma", Font.BOLD, 17));
+		SSS_lbl.setBounds(524, 220, 164, 22);
+		receiptpanel.add(SSS_lbl);
 		
-		JLabel pagibiglbl_1_1 = new JLabel("Philhealth: 0.4");
-		pagibiglbl_1_1.setFont(new Font("Tahoma", Font.BOLD, 17));
-		pagibiglbl_1_1.setBounds(524, 229, 164, 34);
-		receiptpanel.add(pagibiglbl_1_1);
+		JLabel PhilHealth_lbl = new JLabel("Philhealth: 0.4%");
+		PhilHealth_lbl.setHorizontalAlignment(SwingConstants.LEFT);
+		PhilHealth_lbl.setFont(new Font("Tahoma", Font.BOLD, 17));
+		PhilHealth_lbl.setBounds(524, 241, 164, 22);
+		receiptpanel.add(PhilHealth_lbl);
 	}
 }
