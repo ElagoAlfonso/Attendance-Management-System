@@ -631,6 +631,7 @@
         
         // Handle file selection functionality
         JFileChooser fileChooser = new JFileChooser();
+        
         int returnValue = fileChooser.showOpenDialog(null);
         if (returnValue == JFileChooser.APPROVE_OPTION) {
             File selectedFile = fileChooser.getSelectedFile();
