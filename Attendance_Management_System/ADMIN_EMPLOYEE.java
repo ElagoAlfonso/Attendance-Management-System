@@ -101,7 +101,7 @@ public class ADMIN_EMPLOYEE extends JFrame {
 		JLabel Employee_icon = new JLabel("");
 		Employee_icon.setHorizontalAlignment(SwingConstants.CENTER);
 		Employee_icon.setIcon(iconEMPLOYEE);
-		Employee_icon.setBounds(44, 33, 176, 192);
+		Employee_icon.setBounds(44, 29, 176, 192);
 		Employee_pnl.add(Employee_icon);
 		
 		JLabel Attendance_lbl = new JLabel("EMPLOYEE ATTENDANCE");
@@ -119,7 +119,7 @@ public class ADMIN_EMPLOYEE extends JFrame {
 		JLabel Admin_icon = new JLabel("");
 		Admin_icon.setHorizontalAlignment(SwingConstants.CENTER);
 		Admin_icon.setIcon(iconADMIN);
-		Admin_icon.setBounds(38, 34, 198, 180);
+		Admin_icon.setBounds(38, 46, 198, 180);
 		Admin_pnl.add(Admin_icon);
 		
 		JLabel Admin_lbl = new JLabel("ADMIN");
@@ -131,7 +131,7 @@ public class ADMIN_EMPLOYEE extends JFrame {
 		JLabel BG_pic = new JLabel("");
 		BG_pic.setHorizontalAlignment(SwingConstants.CENTER);
 		BG_pic.setIcon(logoIcon);
-		BG_pic.setBounds(0, 37, 1125, 552);
+		BG_pic.setBounds(0, 37, 1100, 591);
 		contentPane.add(BG_pic);
 	}
 
