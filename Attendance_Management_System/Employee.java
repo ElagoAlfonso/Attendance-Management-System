@@ -6,7 +6,7 @@ class Employee {
     private String department; // Private field to store employee department
     private String checkInTime; // Private field to store employee check-in time
     private String checkOutTime; // Private field to store employee check-out time
-    private String totalHours; // Private field to store employee total hours
+    private String totalHours; // Private field to store employee total hours	
 
     public Employee(String name, String ID) {
         this.name = name; // Initialize employee name
